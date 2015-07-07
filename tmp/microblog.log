@@ -1,0 +1,298 @@
+2015-07-06 11:46:00,223 INFO: microblog started [in C:\Users\Not\Python\microblog\app\__init__.py: 36]
+2015-07-07 12:11:23,189 INFO: microblog started [in C:\Users\Not\Python\microblog\app\__init__.py: 36]
+2015-07-07 12:15:32,505 INFO: microblog started [in C:\Users\Not\Python\microblog\app\__init__.py: 36]
+2015-07-07 12:17:49,074 INFO: microblog started [in C:\Users\Not\Python\microblog\app\__init__.py: 36]
+2015-07-07 12:18:15,816 INFO: microblog started [in C:\Users\Not\Python\microblog\app\__init__.py: 36]
+2015-07-07 12:18:33,276 ERROR: Exception on /favicon.ico [GET] [in C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py: 1423]
+Traceback (most recent call last):
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1453, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1436, in raise_routing_exception
+    raise request.routing_exception
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\ctx.py", line 286, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\werkzeug\routing.py", line 1483, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404: Not Found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1370, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1330, in handle_http_exception
+    return handler(e)
+  File "C:\Users\Not\Python\microblog\app\views.py", line 109, in not_found_error
+    return render_template('404.html'), 404
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\templating.py", line 128, in render_template
+    context, ctx.app)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\templating.py", line 110, in _render
+    rv = template.render(context)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\jinja2\environment.py", line 969, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\jinja2\environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\jinja2\_compat.py", line 36, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\Not\Python\microblog\app\templates\404.html", line 1, in <module>
+    {% extends base.html %}
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\jinja2\environment.py", line 397, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'base' is undefined
+2015-07-07 12:19:04,563 ERROR: Exception on /favicon.ico [GET] [in C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py: 1423]
+Traceback (most recent call last):
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1453, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1436, in raise_routing_exception
+    raise request.routing_exception
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\ctx.py", line 286, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\werkzeug\routing.py", line 1483, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404: Not Found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1370, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1330, in handle_http_exception
+    return handler(e)
+  File "C:\Users\Not\Python\microblog\app\views.py", line 109, in not_found_error
+    return render_template('404.html'), 404
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\templating.py", line 128, in render_template
+    context, ctx.app)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\templating.py", line 110, in _render
+    rv = template.render(context)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\jinja2\environment.py", line 969, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\jinja2\environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\jinja2\_compat.py", line 36, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\Not\Python\microblog\app\templates\404.html", line 1, in <module>
+    {% extends base.html %}
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\jinja2\environment.py", line 397, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'base' is undefined
+2015-07-07 12:19:26,747 ERROR: Exception on /favicon.ico [GET] [in C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py: 1423]
+Traceback (most recent call last):
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1453, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1436, in raise_routing_exception
+    raise request.routing_exception
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\ctx.py", line 286, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\werkzeug\routing.py", line 1483, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404: Not Found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1370, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1330, in handle_http_exception
+    return handler(e)
+  File "C:\Users\Not\Python\microblog\app\views.py", line 109, in not_found_error
+    return render_template('404.html'), 404
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\templating.py", line 128, in render_template
+    context, ctx.app)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\templating.py", line 110, in _render
+    rv = template.render(context)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\jinja2\environment.py", line 969, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\jinja2\environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\jinja2\_compat.py", line 36, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\Not\Python\microblog\app\templates\404.html", line 1, in <module>
+    {% extends base.html %}
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\jinja2\environment.py", line 397, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'base' is undefined
+2015-07-07 12:19:29,114 ERROR: Exception on /edit [GET] [in C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py: 1423]
+Traceback (most recent call last):
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask_login.py", line 758, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\Not\Python\microblog\app\views.py", line 94, in edit
+    form = EditForm()
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\wtforms\form.py", line 212, in __call__
+    return type.__call__(cls, *args, **kwargs)
+TypeError: __init__() missing 1 required positional argument: 'original_nickname'
+2015-07-07 12:19:29,366 ERROR: Exception on /favicon.ico [GET] [in C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py: 1423]
+Traceback (most recent call last):
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1453, in dispatch_request
+    self.raise_routing_exception(req)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1436, in raise_routing_exception
+    raise request.routing_exception
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\ctx.py", line 286, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\werkzeug\routing.py", line 1483, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404: Not Found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1370, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1330, in handle_http_exception
+    return handler(e)
+  File "C:\Users\Not\Python\microblog\app\views.py", line 109, in not_found_error
+    return render_template('404.html'), 404
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\templating.py", line 128, in render_template
+    context, ctx.app)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\templating.py", line 110, in _render
+    rv = template.render(context)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\jinja2\environment.py", line 969, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\jinja2\environment.py", line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\jinja2\_compat.py", line 36, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\Not\Python\microblog\app\templates\404.html", line 1, in <module>
+    {% extends base.html %}
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\jinja2\environment.py", line 397, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'base' is undefined
+2015-07-07 13:00:45,617 ERROR: Exception on /edit [GET] [in C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py: 1423]
+Traceback (most recent call last):
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask_login.py", line 758, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\Not\Python\microblog\app\views.py", line 94, in edit
+    form = EditForm()
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\wtforms\form.py", line 212, in __call__
+    return type.__call__(cls, *args, **kwargs)
+TypeError: __init__() missing 1 required positional argument: 'original_nickname'
+2015-07-07 13:00:55,835 ERROR: Exception on /edit [GET] [in C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py: 1423]
+Traceback (most recent call last):
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask_login.py", line 758, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\Not\Python\microblog\app\views.py", line 94, in edit
+    form = EditForm()
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\wtforms\form.py", line 212, in __call__
+    return type.__call__(cls, *args, **kwargs)
+TypeError: __init__() missing 1 required positional argument: 'original_nickname'
+2015-07-07 13:04:30,684 ERROR: Exception on /edit [GET] [in C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py: 1423]
+Traceback (most recent call last):
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask_login.py", line 758, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\Not\Python\microblog\app\views.py", line 94, in edit
+    form = EditForm()
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\wtforms\form.py", line 212, in __call__
+    return type.__call__(cls, *args, **kwargs)
+TypeError: __init__() missing 1 required positional argument: 'original_nickname'
+2015-07-07 13:11:08,112 ERROR: Exception on /edit [GET] [in C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py: 1423]
+Traceback (most recent call last):
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\flask_login.py", line 758, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Users\Not\Python\microblog\app\views.py", line 94, in edit
+    form = EditForm(g.user.nickname)
+  File "C:\Users\Not\Python\microblog\flask\lib\site-packages\wtforms\form.py", line 212, in __call__
+    return type.__call__(cls, *args, **kwargs)
+TypeError: __init__() missing 1 required positional argument: 'original_nickname'
+2015-07-07 13:11:51,263 INFO: microblog started [in C:\Users\Not\Python\microblog\app\__init__.py: 36]
+2015-07-07 13:11:52,077 INFO: microblog started [in C:\Users\Not\Python\microblog\app\__init__.py: 36]
+2015-07-07 13:15:41,723 INFO: microblog started [in C:\Users\Not\Python\microblog\app\__init__.py: 36]
+2015-07-07 13:19:47,059 INFO: microblog started [in C:\Users\Not\Python\microblog\app\__init__.py: 36]
+2015-07-07 13:22:58,472 INFO: microblog started [in C:\Users\Not\Python\microblog\app\__init__.py: 36]
+2015-07-07 13:23:17,280 INFO: microblog started [in C:\Users\Not\Python\microblog\app\__init__.py: 36]
+2015-07-07 15:20:58,970 INFO: microblog started [in C:\Users\Not\Python\microblog\app\__init__.py: 36]
+2015-07-07 15:22:17,391 INFO: microblog started [in C:\Users\Not\Python\microblog\app\__init__.py: 36]
+2015-07-07 15:22:48,223 INFO: microblog started [in C:\Users\Not\Python\microblog\app\__init__.py: 36]
+2015-07-07 15:29:31,274 INFO: microblog started [in C:\Users\Not\Python\microblog\app\__init__.py: 36]
+2015-07-07 15:30:27,893 INFO: microblog started [in C:\Users\Not\Python\microblog\app\__init__.py: 36]
+2015-07-07 15:36:07,711 INFO: microblog started [in C:\Users\Not\Python\microblog\app\__init__.py: 36]
+2015-07-07 15:40:14,819 INFO: microblog started [in C:\Users\Not\Python\microblog\app\__init__.py: 36]
+2015-07-07 15:46:55,953 INFO: microblog started [in C:\Users\Not\Python\microblog\app\__init__.py: 36]
+2015-07-07 15:47:45,724 INFO: microblog started [in C:\Users\Not\Python\microblog\app\__init__.py: 36]
+2015-07-07 15:49:14,452 INFO: microblog started [in C:\Users\Not\Python\microblog\app\__init__.py: 36]
+2015-07-07 15:51:37,138 INFO: microblog started [in C:\Users\Not\Python\microblog\app\__init__.py: 36]
+2015-07-07 15:53:01,142 INFO: microblog started [in C:\Users\Not\Python\microblog\app\__init__.py: 36]
+2015-07-07 15:54:15,205 INFO: microblog started [in C:\Users\Not\Python\microblog\app\__init__.py: 36]
+2015-07-07 15:54:24,104 INFO: microblog started [in C:\Users\Not\Python\microblog\app\__init__.py: 36]
